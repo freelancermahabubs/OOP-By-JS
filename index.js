@@ -3,6 +3,7 @@ let person  =  {
     lastName : "Alom",
     age: 22,
     getName : () => {
-        console.log(`My Name is ${person.firstName} ${person.lastName}`)
+        return `My Name is ${person.firstName} ${person.lastName}`
     }
 }
+console.log(person.getName())
